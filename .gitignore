@@ -1,23 +1,39 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+if (c1 <= c2 && c1 <= c3 && c1 <= c4) {
+            if (c1 == c2 || c1 == c3 || c1 == c4) {
+                out.println(c1);
+                out.print(">1");
+            }
+            else {
+                out.print(c1);
+            }
+        } else {
+                if (c2 <= c1 && c2 <= c3 && c2 <= c4) {
+                    if (c1 == c2 || c2 == c3 || c2 == c4) {
+                        out.println(c2);
+                        out.print(">1");
+                    } else {
+                        out.print(c2);
+                    }
+                }
+                } else{
+            if (c3 <= c1 && c3 <= c2 && c3 <= c4) {
+                if (c3 == c2 || c1 == c3 || c3 == c4) {
+                    out.println(c3);
+                    out.print(">1");
+                } else {
+                    out.print(c3);
+                }
+            }
+        } else {
+                if (c4 <= c1 && c4 <= c3 && c4 <= c2) {
+                    if (c4 == c2 || c4 == c3 || c1 == c4) {
+                        out.println(c4);
+                        out.print(">1");
+                    }
+                    else {
+                        out.print(c4);
+                    }
+                }
 /dist/
 /nbdist/
 /.nb-gradle/
